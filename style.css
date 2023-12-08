@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300&family=Karla:wght@300;400&family=Manrope:wght@700&family=Montserrat:wght@100;500&family=Outfit:wght@300&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300&family=Karla:wght@300;400&family=Manrope:wght@700&family=Montserrat:wght@100;500&family=Open+Sans:wght@400;700&family=Outfit:wght@300&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    background: #1B2330;
+}
+nav{
+    width: 100%;    
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 9%;
+}
+.navLinks{
+    display: flex;   
+    gap:2rem; 
+}
+.navLinks a{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.navLinks a:hover{
+    text-decoration-line: underline;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    gap: 2rem;
+}
+.hero h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 60px;
+}
+.hero p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 589px;
+
+}
+.hero button{
+    width: 280px;
+    height: 56px;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(138deg, #63E1D9 -49.34%, #34A0CD 100%);    
+    border-radius: 40px;
+    border-style: none;
+    outline: none;
+    transition: all .55s ease;
+}
+.hero button:hover{
+    background: #8ADAE3;
+}
+.grid{
+    margin-top: 150px;
+    width: 100vw;
+    height: auto;
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 5rem;   
+    
+}
+.gridBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 349px;
+    height: 214px;
+    text-align: center;
+}
+.gridBox h1{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.gridBox p{
+    color: #FFF;    
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}
+.gridContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
