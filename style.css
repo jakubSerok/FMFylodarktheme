@@ -123,3 +123,264 @@ nav{
     align-items: center;
     width: 100%;
 }
+.section2{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 9%;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.section2 img{
+    margin-left: auto;
+}
+.prodBox{
+    display: flex;
+    flex-direction: column;
+    height: 282px;
+    justify-content: space-between;    
+}
+.prodBox h1{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+}
+.prodBox p{
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    
+}
+.prodButton{
+    display: flex;
+    width: 170px;
+}
+ .prodButton p{    
+    color: #62E0D9;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+}
+.prodButton img{
+    width: 20px;
+    height: 20px;
+}
+.prodButton:hover, .prodButton p:hover{
+    color: #FFF;
+}
+.section3{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding: 0 9%;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.comBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px 20px 20px;
+    width: 360px;
+    height: 200px;
+    border-radius: 3.933px;
+    background: #202A3C;
+    box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.10);    
+    z-index: 5;
+}
+.comBox p{
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.5px;
+}
+.comContainer{
+    display: flex;
+    gap:10px;
+}
+.comContainer img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.textBox h2{
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 120% */
+    letter-spacing: 0.5px;
+}
+.textBox p{
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px; /* 142.857% */
+    letter-spacing: 0.5px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;    
+    width: 100vw;
+    height: 441px;
+    background:  #0B1524;
+    margin-top: 400px;
+    z-index: 5;
+    padding: 180px 9% 20px;
+}
+footer img{
+    width: 108px;
+height: 31px;
+}
+.footerBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerBox img{
+    
+width: 24px;
+height: 24px;
+}
+.footerBox p{
+    width: 339px;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.footerContainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.footerCon{
+    display: flex;
+    gap: 22px
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.links a{
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.links a:hover{
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.emailBox{   
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -2150px;
+    width: 863px;
+    height: 275px;
+    border-radius: 9px;
+    background: #1B2330;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+.emailBox h1{
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+}
+.emailBox p{
+    color: #FFF;
+    text-align: center;
+    font-family:'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+}
+.emailContainer{
+    display: flex;
+    gap: 29px;
+}
+.emailContainer input{
+    width: 480px;
+    height: 48px;
+    background: #FFF;
+    color: black;
+    padding-left: 20px;  
+    border-radius: 30px;  
+    border-style: none;
+    outline: none;
+}
+.emailContainer button{    
+    width: 200px;
+    height: 48px;
+    background: linear-gradient(130deg, #63E1D9 -26.63%, #34A0CD 100%);
+    border-radius: 30px;
+    border-style: none;
+    outline: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all .55s ease;
+    }
+.emailContainer button:hover{
+    background: #8ADAE3;
+}
+.red{
+    color: #FF4242;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hidden{
+    display: none;
+}
