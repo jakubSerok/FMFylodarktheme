@@ -384,3 +384,93 @@ height: 24px;
 .hidden{
     display: none;
 }
+@media (max-width:440px){
+    nav{
+        height: 100px;
+    }
+    nav img{
+        width: 80px;
+        height: 24px;
+    }
+    .navLinks a{        
+        font-size: 12px;          
+    }
+    .hero img{
+        width: 304px;
+        height: 225px;
+    }
+    .hero h1{
+        font-size: 24px;
+    }
+    .hero p{
+        font-size: 14px;
+        width: 100vw;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .section2{        
+        grid-template-columns: 1fr;       
+    }
+    .section2 img{
+        width: 304px;
+        height: 229.269px;
+    }
+    .prodBox{
+        height: auto;
+        gap: 1rem;
+    }
+    .prodBox h1{
+        font-size: 18px;
+    }
+    .prodBox p{
+        font-size: 14px;
+    }
+    .prodButton img{
+        width: 12px;
+        height: 12px;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .comBox{
+        width: 280px;
+        height: auto;
+        gap: 1rem;
+    }
+    .comBox p{
+        font-size: 10px;
+    }
+    footer{
+        height: 974px;
+    }
+    .footerBox{       
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+    }
+    
+    .emailBox{           
+        bottom: -2950px;
+        width: 336px;
+        height: 353px;        
+    }
+    .emailBox h1{
+        font-size: 18px;
+    }
+    .emailBox p{
+        font-size: 14px;
+    }
+    .emailContainer{
+        flex-direction: column;        
+    }
+    .emailContainer input{
+        width: 280px;
+        height: 48px;
+    }
+    .emailContainer button{    
+        width: 280px;
+        height: 48px;
+        }
+    
+}   
